@@ -15,7 +15,22 @@ a{text-decoration: none; color: inherit;}
 .show{display: block;}
 .none{display: none;}
 
-form input::placeholder{text-align:center;color:#fff;font-family: 'Titillium Web', sans-serif;}
+form input{
+    width: 50%;
+    background: none;
+    font-size: 30px;
+    text-align: center;
+    color:#fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+}
+
+form input::placeholder{
+    text-align:center;
+    color:#fff;
+    font-family: 'Titillium Web', sans-serif;
+}
 
 body{
     position: relative;
@@ -46,27 +61,11 @@ body{
 .userWrap{padding:10px 0;}
 .userWrap p{font-weight: 700;}
 .userWrap form{}
-.userWrap form input{
-    width: 50%;
-    background: none;
-    font-size: 30px;
-    text-align: center;
-    color:#fff;
-    border: none;
-    border-bottom: 1px solid #fff;
-}
+.userWrap form input{width: 50%;}
 
 .listWrap{padding:10px 0;}
 .listWrap form{width: 100%;}
-.listWrap form input{
-    width: 80%;
-    background: none;
-    font-size: 30px;
-    text-align: center;
-    color:#fff;
-    border: none;
-    border-bottom: 1px solid #fff;
-}
+.listWrap form input{width: 80%;}
 .listWrap > div{
     float: left;
     width: 48%;
